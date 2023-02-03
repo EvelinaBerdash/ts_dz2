@@ -16,7 +16,7 @@ if (typeof window !== undefined && window && window.addEventListener) {
       today.getMonth(),
       today.getDate() + 3
     );
-    renderUserBlock("Anton Pryakhin", "/img/avatar.png", 3);
+    renderUserBlock("Eva Berdash", "/img/avatar.png", 3);
     renderSearchFormBlock(dateIn, dateOut);
     renderSearchStubBlock();
     renderToast(
